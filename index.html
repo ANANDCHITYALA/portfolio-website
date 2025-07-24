@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Anand_Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="profile.css" />
+  <script defer src="profile.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Anand's Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certificationcourses">Certification</a></li>
+        <li><a href="#achievementsandawards">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button id="toggle-dark" aria-label="Toggle Dark Mode">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="hero container" id="home">
+    <div class="hero-text">
+      <h2>Hello, I'm <span id="typed"></span></h2>
+      <p class="sub">Full Stack Web Developer (MERN STACK) | Creative Frontend Enthusiast | CSE Graduate</p>
+      <a href="Vivek Resume.pdf" download class="btn">Download Resume</a>
+
+      <div class="social-icons">
+        <a href="https://github.com/ANANDCHITYALA" target="_blank" aria-label="GitHub">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" />
+        </a>
+
+        <a href="https://linkedin.com/in/anandchityala/" target="_blank" aria-label="LinkedIn">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+        </a>
+
+        <a href="mailto:anandchityala@gmail.com" target="_blank" aria-label="Gmail">
+          <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Gmail" />
+        </a>
+      </div>
+
+    </div>
+    <div class="hero-img">
+      <img src="profile1.jpg" alt="ANAND CHITYALA" />
+    </div>
+  </header>
+
+  <section id="about" class="container">
+    <h2> 📝 About Me</h2>
+    <p>
+      Dedicated Full-Stack Web Development student with hands-on experience in HTML, CSS, JavaScript, and modern
+      frameworks. Eager to contribute to dynamic development teams by building responsive web applications and
+      implementing robust back-end solutions. Ability to learn emerging technologies rapidly while delivering quality
+      code and collaborating effectively in both individual and team-based projects.
+    </p>
+  </section>
+
+  <section id="education">
+    <h2> 🎓 Education</h2>
+    <div class="edu-cards">
+
+      <div class="edu-card">
+        <h3>Kshatriya College of Engineering</h3>
+        <span class="edu-year">2021 – 2025</span>
+        <p>Computer Science Graduate with a CGPA of <strong>6.88</strong>.</p>
+      </div>
+
+      <div class="edu-card">
+        <h3>Govt. Junior College</h3>
+        <span class="edu-year">2019 – 2021</span>
+        <p>Achieved <strong>53%</strong> in Secondary Education.</p>
+      </div>
+
+      <div class="edu-card">
+        <h3>Sri Vidhya Sai High School</h3>
+        <span class="edu-year">— 2019</span>
+        <p>Secured <strong>97%</strong> in Primary School Examination.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2 class="skills-title" class="sub"> ⚙️ Skills</h2>
+
+    <!-- Front-End -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <img src="https://cdn-icons-png.flaticon.com/512/1675/1675193.png" alt="Front-End Icon" />
+        <h3>Front-End Development</h3>
+      </div>
+      <div class="tech-list">
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML" />
+          <span>HTML5</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS" />
+          <span>CSS3</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" />
+          <span>JavaScript</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="React" />
+          <span>React</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732252.png" alt="Angular" />
+          <span>Angular</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Back-End -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <img src="https://cdn-icons-png.flaticon.com/512/2282/2282188.png" alt="Back-End Icon" />
+        <h3>Back-End Development</h3>
+      </div>
+      <div class="tech-list">
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="Node.js" />
+          <span>Node.js</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="Express" />
+          <span>Express</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Databases -->
+    <div class="skill-card">
+      <div class="skill-header">
+        <img src="https://cdn-icons-png.flaticon.com/512/3665/3665936.png" alt="Database Icon" />
+        <h3>Database</h3>
+      </div>
+      <div class="tech-list">
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" alt="MySQL" />
+          <span>MySQL</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" alt="PostgreSQL" />
+          <span>PostgreSQL</span>
+        </div>
+        <div class="tech-item">
+          <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MongoDB" />
+          <span>MongoDB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="container">
+    <h2> 💼 Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>DETECTION OF MOBILE MALICIOUS WEB PAGES IN REAL TIME </h3>
+        <p>Developed a Java-based mobile security app with smart detection algorithms to block phishing, malware, and
+          fraud sites, featuring real-time alerts and a user-friendly interface.</p>
+      </div>
+      <div class="project-card">
+        <h3>CRIME DATA ANALYSIS USING MACHINE LEARNING AND DJANGO </h3>
+        <p>Developed a Python-Django web app using machine learning to predict crime patterns, identify high-risk areas,
+          and support law enforcement in reducing crime through data-driven decisions.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="certificationcourses" class="container">
+    <h2>📜 Certifications & Trainings</h2>
+    <p>Explore my achievements and recognitions in 3D!</p>
+    <a href="3D.html" target="_blank" class="btn">🎓 Explore in 3D</a>
+    <ul class="list">
+      <li>FSWD Completion Certificate - 2025 </li>
+      <li>FSWD Project Certificate - 2025 </li>
+      <li>FSWD Training Certificate - 2025 </li>
+      <li>GFG Summer Workshop Certificate - 2024</li>
+      <li>NIIT Digital Productivity Certificate - 2024 </li>
+      <li> Naukri AINCAT Aptitude Certificate - 2024 </li>
+      <li>Walmart Tech Internship Certificate - 2024</li>
+      <li> GDSC Frontend Certificate - 2024</li>
+      <li>Microsoft Backend Bootcamp - 2024</li>
+      <li>Microsoft Frontend Bootcamp - 2024</li>
+    </ul>
+  </section>
+
+  <section id="achievementsandawards" class="container">
+    <h2>🏆 Achievements & Awards</h2>
+
+    <div>
+      <p>💻 <strong>Walmart Global Tech - Advanced Software Engineering Job Simulation:</strong><br>
+        Successfully completed the program, gaining hands-on experience in data structures, software architecture, and
+        databases.</p>
+    </div>
+
+    <div>
+      <p>📊 <strong>AINCAT 2025 by Naukri Campus:</strong><br>
+        Participated with 2.1+ lakh students nationwide and secured an <strong>All India Rank of 15,871</strong>!</p>
+    </div>
+
+  </section>
+
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-row">
+
+      <!-- Phone (with text) -->
+      <a href="tel:+919381677003" class="contact-item" title="Call">
+        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone Icon"
+          style="width: 24px; height: 24px;" />
+        <span id="darkmode_contact">+91 9381677003</span>
+      </a>
+
+      <!-- Gmail -->
+      <a href="mailto:anandchityalach@gmail.com" class="contact-item" title="Gmail">
+        <img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Gmail Icon" />
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/anandchityala/" target="_blank" class="contact-item" title="LinkedIn">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon" />
+      </a>
+
+      <!-- GitHub -->
+      <a href="https://github.com/ANANDCHITYALA" target="_blank" class="contact-item" title="GitHub">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub Icon" />
+      </a>
+
+    </div>
+  </section>
+
+
+  <footer>
+    <p>© 2025 Anand Chityala. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

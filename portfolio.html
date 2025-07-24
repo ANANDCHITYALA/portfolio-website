@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anand's Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-800 dark:bg-gray-900 dark:text-white transition duration-300">
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white dark:bg-gray-800 shadow">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Anand’s Portfolio</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#education" class="hover:text-blue-500">Education</a></li>
+        <li><a href="#skills" class="hover:text-blue-500">Skills</a></li>
+        <li><a href="#projects" class="hover:text-blue-500">Projects</a></li>
+        <li><a href="#certifications" class="hover:text-blue-500">Certifications</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+        <li><button id="toggleTheme">🌙</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="max-w-6xl mx-auto px-4 py-20 flex flex-col md:flex-row items-center">
+    <div class="flex-1 space-y-6">
+      <h2 class="text-3xl md:text-5xl font-bold">Hello, I'm <span id="typed"></span></h2>
+      <p class="text-lg">Full Stack Web Developer (MERN STACK) | Creative Frontend Enthusiast | CSE Graduate</p>
+      <a href="assets/resume.pdf" download class="bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded">Download Resume</a>
+      <div class="flex space-x-4">
+        <a href="https://github.com/ANANDCHITYALA" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/anandchityala/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="flex-1 mt-10 md:mt-0">
+      <img src="assets/profile.jpg" alt="Profile Image" class="rounded-full w-64 h-64 object-cover mx-auto">
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+    <p class="text-lg">Dedicated Full-Stack Web Development student with hands-on experience in HTML, CSS, JavaScript, and modern frameworks. Eager to build responsive apps and robust backend solutions with emerging technologies.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-semibold mb-4">Education</h2>
+    <ul class="space-y-4">
+      <li><strong>Kshatriya College of Engineering</strong> (2021–2025) — CGPA: 6.88</li>
+      <li><strong>Govt. Junior College</strong> (2019–2021) — 53%</li>
+      <li><strong>Sri Vidhya Sai High School</strong> (2019) — 97%</li>
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-semibold mb-6">Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow">HTML</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow">CSS</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow">JavaScript</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow">Python</div>
+      <div class="bg-gray-100 dark:bg-gray-800 p-4 rounded shadow">MySQL</div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-semibold mb-6">Projects</h2>
+    <div class="space-y-4">
+      <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded shadow">
+        <h3 class="text-xl font-bold">Mobile Malicious Page Detector</h3>
+        <p>Java-based app to detect phishing, malware, and fraud sites with smart alerts.</p>
+      </div>
+      <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded shadow">
+        <h3 class="text-xl font-bold">Crime Prediction System</h3>
+        <p>Python-Django app using ML to predict crime patterns and reduce crime via data insights.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications -->
+  <section id="certifications" class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-semibold mb-4">Certifications</h2>
+    <p class="mb-4">Explore in 3D!</p>
+    <a href="carousel.html" class="bg-indigo-600 hover:bg-indigo-700 text-white py-2 px-4 rounded">🎓 Open 3D Carousel</a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="max-w-4xl mx-auto px-4 py-12">
+    <h2 class="text-3xl font-semibold mb-4">Contact</h2>
+    <p>Phone: +91 9381677003</p>
+    <p>Email: <a href="mailto:anandchityalach@gmail.com" class="text-blue-500">anandchityalach@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/anandchityala" class="text-blue-500">linkedin.com/in/anandchityala</a></p>
+  </section>
+
+  <footer class="bg-gray-100 dark:bg-gray-800 text-center py-6 mt-10">
+    <p>© 2025 Anand Chityala. All rights reserved.</p>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
